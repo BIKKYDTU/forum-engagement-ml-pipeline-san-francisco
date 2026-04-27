@@ -1,0 +1,32 @@
+# Instruction files (excluded as requested)
+instructions/
+
+# Evaluation artifacts
+after.json
+before.json
+after_stderr.txt
+after_stdout.txt
+before_stderr.txt
+before_stdout.txt
+fail_to_pass.json
+pass_to_pass.json
+rubrics.txt
+task_performance_instruction.md
+
+# Archives
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Env
+.env
+.venv
+venv/
